@@ -1,0 +1,41 @@
+# HTTP y scraping
+requests==2.32.3
+beautifulsoup4==4.12.3
+lxml==5.3.0
+playwright==1.49.0
+
+# Extracción de texto
+pdfplumber==0.11.4
+PyMuPDF==1.25.1
+pytesseract==0.3.13
+Pillow==11.1.0
+
+# Modelo de datos
+pydantic==2.10.6
+
+# Base vectorial
+chromadb>=0.6.0
+
+# Búsqueda léxica (BM25) para retrieval híbrido — ancla números/códigos exactos
+# de norma que la búsqueda semántica pura diluye
+rank-bm25==0.2.2
+
+# Base relacional
+psycopg2-binary==2.9.10
+sqlalchemy==2.0.37
+
+# Embeddings
+sentence-transformers==3.4.1
+
+# Claude API
+anthropic==0.45.0
+
+# Utilidades
+python-dotenv==1.0.1
+tenacity==9.0.0
+tqdm==4.67.1
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.25.3
+responses==0.25.3

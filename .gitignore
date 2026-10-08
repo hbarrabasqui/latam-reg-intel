@@ -1,0 +1,30 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/raw_texts/
+.pytest_cache/
+
+# --- Reforzado para backup limpio ---
+data/chroma/
+data/latam_reg.db
+data/*.sqlite3
+data/semantic_cleanup_checkpoint.json
+.fuse_hidden*
+*.log
+.claude/
+logs_*.txt
+# Notas internas de trabajo (no van al repo publico)
+claude.md
+ESTADO_SESION.md
+PLAN_VIGILANCIA.md
+PLAN_REPO_PUBLICO.md
+# Excluido del repo publico: contiene material de Lenor/clientes/corpus real
+data/
+eval_report.md
+_transfer.bundle
+scripts/seed_chile_subtel.py
